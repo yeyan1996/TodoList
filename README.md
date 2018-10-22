@@ -32,3 +32,7 @@ data() {
     }
   },
 ```
+
+2. 管理系统的input组件和table组件2者不要分离
+
+3. 统一把icon-class换成svg的形式
