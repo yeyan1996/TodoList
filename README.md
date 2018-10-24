@@ -4,7 +4,7 @@
 
 * 统一把icon-class换成svg的形式
 
-* async/await使用.catch()捕获错误
+* async/await使用.catch()捕获错误(**或者使用拦截器对状态码不等于200的统一拦截?**)
 
 ```
 async function F() {
