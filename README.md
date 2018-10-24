@@ -1,5 +1,23 @@
-# TodoList & Standard
-1. 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
+ # Standard
+ 
+* 管理系统的input组件和table组件2者不要分离
+
+* 统一把icon-class换成svg的形式
+
+* async/await使用.catch()捕获错误
+
+```
+async function F() {
+    let res = await fetch('http://localhost:3000',{
+        method:'GET'
+    }).catch(err=>console.log(err))
+    let data = await res.json().catch(err=>console.log(err))
+}
+F()
+```
+
+# TodoList
+* 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
 ```
 data() {
     const validateUsername = (rule, value, callback) => {
@@ -31,20 +49,4 @@ data() {
       redirect: undefined
     }
   },
-```
-
-2. 管理系统的input组件和table组件2者不要分离
-
-3. 统一把icon-class换成svg的形式
-
-4. async/await使用.catch()捕获错误
-
-```
-async function F() {
-    let res = await fetch('http://localhost:3000',{
-        method:'GET'
-    }).catch(err=>console.log(err))
-    let data = await res.json().catch(err=>console.log(err))
-}
-F()
 ```
