@@ -1,6 +1,6 @@
  # Standard
  
-* 管理系统的input组件和table组件2者不要分离
+* 管理系统的input组件和table组件2者不要分离,每次搜索先清除表格数据,再执行搜索操作
 
 * 统一把icon-class换成svg的形式
 
