@@ -4,7 +4,7 @@
 
 * 统一把icon-class换成svg的形式
 
-* async/await使用.catch()捕获错误(**或者使用拦截器对状态码不等于200的统一拦截?**)
+* async/await使用.catch()捕获错误
 
 ```
 async function F() {
@@ -36,6 +36,11 @@ await fetchList().catch(err=>console.log(err))
 ```
 
 * scss写在vue文件里面,创建style文件,放入公共的全局样式,以及mixin封装的样式,以及variables变量单独存储统一颜色,以及elementui自定义的样式
+
+* 日期格式化插件[date-format](https://www.npmjs.com/package/date-format)
+```
+npm i date-format -D
+```
 
 # TodoList
 * 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
