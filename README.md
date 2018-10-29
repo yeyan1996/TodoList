@@ -1,4 +1,4 @@
- # Standard
+ # Best Practice
  
 * 管理系统的input组件和table组件2者不要分离,每次搜索先清除表格数据,再执行搜索操作
 
@@ -42,8 +42,22 @@ await fetchList().catch(err=>console.log(err))
 npm i date-format -D
 ```
 
+* 减少嵌套，尽早return
+```
+function test(fruit, quantity) {
+  const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+  if (!fruit) throw new Error('No fruit!'); // condition 1: throw error early
+  if (!redFruits.includes(fruit)) return; // condition 2: stop when fruit is not red
+  console.log('red');
+  // condition 3: must be big quantity
+  if (quantity > 10) {
+    console.log('big quantity');
+  }
+}
+```
+
 # TodoList
-* 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
+* [ ] 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
 ```
 data() {
     const validateUsername = (rule, value, callback) => {
@@ -77,6 +91,6 @@ data() {
   },
 ```
 
-* 用户点击左侧导航栏的时候,如果跳转的页面和当前页面一致,就return
+* [x] 用户点击左侧导航栏的时候,如果跳转的页面和当前页面一致,就return
 
-* 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
+* [ ] 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
