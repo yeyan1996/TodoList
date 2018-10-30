@@ -55,6 +55,7 @@ function test(fruit, quantity) {
   }
 }
 ```
+* currentTableData放在computed里面,值是currentPage和tableData计算后的结果
 
 # TodoList
 * [ ] 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
