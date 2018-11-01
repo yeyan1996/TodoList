@@ -93,6 +93,8 @@ data() {
 ```
 * [ ] 学习数据结构与算法
 
+* [ ] 看完这个[前端进阶](https://www.jianshu.com/u/10ae59f49b13)
+
 * [ ] 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
 
 * [x] 用户点击左侧导航栏的时候,如果跳转的页面和当前页面一致,就return
