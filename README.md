@@ -55,6 +55,24 @@ function test(fruit, quantity) {
   }
 }
 ```
+
+* 封装函数时，尽量使用函数表达式取代语句，表达式有返回值，语句没有返回值
+```
+function setBackgroundColor(ele, color) {
+    ele.style.backgroundColor = color;
+    return color;
+}
+
+// 多处使用
+var ele = document.querySelector('.test');
+setBackgroundColor(ele, 'red');
+setBackgroundColor(ele, '#ccc');
+
+作者：这波能反杀
+链接：https://www.jianshu.com/p/69dede6f7e5f
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+```
 * currentTableData放在computed里面,值是currentPage和tableData计算后的结果
 
 # TodoList
