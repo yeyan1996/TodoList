@@ -77,6 +77,15 @@ setBackgroundColor(ele, '#ccc');
   }
 ```
 
+* 如果一个模块下就一个文件，尽量写成 index.vue 。这里文件夹和文件同名，路由是不是很长？你在其他文件中 import 的时候是不是也不方便？ 而且我发现 problemManagement 和 problemRetrieve 都属于问题管理模块，完全可以合并到一个文件夹里啊。还有，文件夹已经表明是问题管理模块了，所以文件名就不要再以 problem*** 开头了。
+```
+problemManagement
+│   ├── index.vue
+│   ├── retrieve.vue
+qualityCheckAppeal
+    └── index.vue
+```
+
 # TodoList
 * [ ] 在data() {}中加入处理函数在return数据，可以考虑用proxy拦截验证数据？（vue-element-admin）
 ```
