@@ -8,6 +8,15 @@
 
 * 验证使用handleSubmit,搜索使用handleSearch
 
+* 路由跳转的函数名使用linkXXX
+```
+linkEdit() {
+this.$router.push({
+name:'hospManagement'
+})
+}
+```
+
 ```
 async function F() {
     let res = await fetch('http://localhost:3000',{
