@@ -6,6 +6,8 @@
 
 * async/await使用.catch()捕获错误
 
+* 验证使用handleSubmit,搜索使用handleSearch
+
 ```
 async function F() {
     let res = await fetch('http://localhost:3000',{
