@@ -95,7 +95,7 @@ qualityCheckAppeal
 
 * [ ] ~~使用vue+typescript重构公司项目~~
 
-      重构公司项目,提取多个公共组件
+     重构公司项目,提取多个公共组件
 
 * [ ] 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
 
