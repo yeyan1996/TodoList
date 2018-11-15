@@ -90,7 +90,7 @@ qualityCheckAppeal
 
 * 编辑和创建的界面差不多可以使用同一组件,在路由的meta信息中标注是那个功能
 
-!(https://lc-gold-cdn.xitu.io/25969342df96a2000ec6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](https://lc-gold-cdn.xitu.io/25969342df96a2000ec6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 ```
 computed: {
