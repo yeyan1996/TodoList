@@ -68,7 +68,9 @@ var ele = document.querySelector('.test');
 setBackgroundColor(ele, 'red');
 setBackgroundColor(ele, '#ccc');
 ```
-* ~~currentTableData放在computed里面,值是currentPage和tableData计算后的结果~~封装了分页器组件,每次分页向父组件触发currentChange事件
+* ~~currentTableData放在computed里面,值是currentPage和tableData计算后的结果~~
+
+    封装了分页器组件,每次分页向父组件触发currentChange事件
 
 * vuex的store文件创建一个mutations-types
 ```
@@ -91,7 +93,9 @@ qualityCheckAppeal
 
 * [ ] 看完这个[前端进阶](https://www.jianshu.com/u/10ae59f49b13)
 
-* [ ] ~~使用vue+typescript重构公司项目~~重构公司项目,提取多个公共组件
+* [ ] ~~使用vue+typescript重构公司项目~~
+
+      重构公司项目,提取多个公共组件
 
 * [ ] 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
 
