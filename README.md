@@ -110,7 +110,7 @@ created() {
 # TodoList
 * [ ] 学习数据结构与算法
 
-* [ ] 看完这个[前端进阶](https://www.jianshu.com/u/10ae59f49b13)
+* [ ] 看完这个[前端进阶](https://www.jianshu.com/p/996671d4dcc4)
 
 * [ ] ~~使用vue+typescript重构公司项目~~
 
