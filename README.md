@@ -37,9 +37,9 @@ await fetchList().catch(err=>console.log(err))
 
 * scss写在vue文件里面,创建style文件,放入公共的全局样式,以及mixin封装的样式,以及variables变量单独存储统一颜色,以及elementui自定义的样式
 
-* 日期格式化插件[date-format](https://www.npmjs.com/package/date-format)
+* 日期格式化插件[moment](http://momentjs.cn/)
 ```
-npm i date-format -D
+npm install moment --S
 ```
 
 * 减少嵌套，尽早return
