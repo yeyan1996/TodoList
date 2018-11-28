@@ -109,14 +109,13 @@ created() {
 
 * elementui修改框架样式时,可以在外面套一层id选择器(权重100),避免全局样式覆盖组件样式,导致权重不够的问题
 
+* 可输入下拉框使用自定义模板的el-input(fetch-suggestions),不要使用可输入的下拉框组件
+
 # TodoList
 * [ ] 学习数据结构与算法
 
-* [ ] 看完这个[前端进阶](https://www.jianshu.com/p/996671d4dcc4)
+* [x] 看完这个[前端进阶](https://www.jianshu.com/p/996671d4dcc4)
 
-* [ ] ~~使用vue+typescript重构公司项目~~
+* [x] ~~使用vue+typescript重构公司项目~~重构公司项目,提取多个公共组件
 
-     重构公司项目,提取多个公共组件
-
-* [ ] 登出按钮的函数只要给vuex发送一个logout的dispatch,在vuex中的actions中把登录信息(sessionStorage或token)删除,在then()中刷新页面,然后通过vue-router的权限验证自动弹回主页
 
