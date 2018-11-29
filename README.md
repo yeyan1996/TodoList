@@ -56,7 +56,7 @@ function test(fruit, quantity) {
 }
 ```
 
-* 封装函数时，尽量使用函数表达式取代语句，表达式有返回值，语句没有返回值
+* 封装函数时，尽量使用函数表达式取代语句，表达式有返回值，语句没有返回值（尽量使用纯函数，防止影响其他代码）
 ```
 function setBackgroundColor(ele, color) {
     ele.style.backgroundColor = color;
@@ -110,6 +110,9 @@ created() {
 * elementui修改框架样式时,可以在外面套一层id选择器(权重100),避免全局样式覆盖组件样式,导致权重不够的问题
 
 * 可输入下拉框使用自定义模板的el-input(fetch-suggestions),不要使用可输入的下拉框组件
+
+* 使用函数默认值替代备用的选项
+
 
 # TodoList
 * [ ] 学习数据结构与算法
