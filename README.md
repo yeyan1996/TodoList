@@ -17,26 +17,6 @@
             }
 ```
 
-
-* 所有api分离成单独的文件管理
-```
-/api/list.js
-import axios from '../../axios' //引入配置好的axios
-export function fetchList(query) {
-  return axios(
-  url:'/xxxxx',
-  method:'get',
-  params:query
-  )
-}
-
-/list.vue
-import {fetchList} from 'api/list.js'
-......
-await fetchList().catch(err=>console.log(err))
-
-```
-
 * scss写在vue文件里面,创建style文件,放入公共的全局样式,以及mixin封装的样式,以及variables变量单独存储统一颜色,以及elementui自定义的样式
 
 * 日期格式化插件[moment](http://momentjs.cn/)
