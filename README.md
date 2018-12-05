@@ -98,8 +98,11 @@ created() {
 # TodoList
 * [ ] 学习数据结构与算法
 
+* [ ] 刷leetCode
+
 * [x] 看完这个[前端进阶](https://www.jianshu.com/p/996671d4dcc4)
 
 * [x] ~~使用vue+typescript重构公司项目~~重构公司项目,提取多个公共组件
+
 
 
