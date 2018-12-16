@@ -1,5 +1,12 @@
  # Best Practice
  
+* 使用逻辑运算符（&& ||）替换三元运算符
+```
+hasMoney ? console.log('有钱') : null
+
+hasMoney && console.log('有钱')
+```
+ 
 * let声明放在代码块的最前面
  
 * 尽量不要用取反(!)作为判断条件 
