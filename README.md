@@ -9,8 +9,6 @@ hasMoney ? console.log('有钱') : null
 hasMoney && console.log('有钱')
 ```
  
-* let声明放在代码块的最前面
- 
 * 尽量不要用取反(!)作为判断条件 
  
 * 使用函数默认值替代备用的选项
@@ -32,7 +30,7 @@ hasMoney && console.log('有钱')
 
 * scss写在vue文件里面,创建style文件,放入公共的全局样式,以及mixin封装的样式,以及variables变量单独存储统一颜色,以及elementui自定义的样式
 
-* 日期格式化插件[moment](http://momentjs.cn/)
+* 日期格式化轻量级库[day.js](https://github.com/iamkun/dayjs)
 ```
 npm install moment --S
 ```
