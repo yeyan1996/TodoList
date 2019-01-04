@@ -1,4 +1,13 @@
  # Best Practice
+ 
+ * 封装条件语句
+ ```
+ const isComplexDataType = obj => (typeof obj === 'object' || typeof obj === 'function') && (obj !== null)
+ 
+ if(isComplexDataType(something)){
+ //.......
+ }
+ ```
 
 * [Vue风格指南](https://cn.vuejs.org/v2/style-guide/)
  
@@ -12,8 +21,6 @@ hasMoney && console.log('有钱')
 * 尽量不要用取反(!)作为判断条件 
  
 * 使用函数默认值替代备用的选项
- 
-* 管理系统的input组件和table组件2者不要分离,每次搜索先清除表格数据,再执行搜索操作
 
 * 统一把icon-class换成svg的形式
 
