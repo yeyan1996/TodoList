@@ -39,7 +39,7 @@ hasMoney && console.log('有钱')
 
 * 日期格式化轻量级库[day.js](https://github.com/iamkun/dayjs)
 ```
-npm install moment --S
+npm install dayjs --S
 ```
 
 * 减少嵌套，尽早return
