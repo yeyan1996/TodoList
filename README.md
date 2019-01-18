@@ -1,4 +1,6 @@
  # Best Practice
+
+ * [浏览器下载文件插件FileSaver](https://github.com/eligrey/FileSaver.js)
  
  * 封装条件语句
  ```
