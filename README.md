@@ -1,4 +1,14 @@
  # Best Practice
+ 
+ * ，在声明props命名时使用驼峰，template模版中使用短横线
+ ```
+ <my-component my-prop>
+ ```
+ 
+ * Vue自定义事件，使用短横线命名
+ ```
+ this.$emit('my-event')
+ ```
 
  * [浏览器下载文件插件FileSaver](https://github.com/eligrey/FileSaver.js)
  
