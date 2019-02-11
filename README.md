@@ -1,6 +1,6 @@
  # Best Practice
  
- * ，在声明props命名时使用驼峰，template模版中使用短横线
+ * 在声明props命名时使用驼峰，template模版中使用短横线
  ```
  <my-component my-prop>
  ```
