@@ -1,5 +1,7 @@
  # Best Practice
  
+ * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
+ 
  * 在声明props命名时使用驼峰，template模版中使用短横线
  ```
  <my-component my-prop>
