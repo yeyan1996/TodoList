@@ -1,5 +1,7 @@
  # Best Practice
  
+ * select框的option选项用xxxxOptions
+ 
  * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
  
  * 在声明props命名时使用驼峰，template模版中使用短横线
@@ -38,7 +40,7 @@ hasMoney && console.log('有钱')
 
 * 统一把icon-class换成svg的形式
 
-* 验证使用handleSubmit,搜索使用handleSearch
+* 验证使用handleValidate,搜索使用handleSearch,提交用handleSubmit
 
 * 路由跳转的函数名使用linkXXX
 ```
