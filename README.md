@@ -40,20 +40,7 @@ hasMoney && console.log('有钱')
  
 * 使用函数默认值替代备用的选项
 
-* 统一把icon-class换成svg的形式
-
 * 验证使用handleValidate,搜索使用handleSearch,提交用handleSubmit
-
-* 路由跳转的函数名使用linkXXX
-```
-   linkEdit() {
-                this.$router.push({
-                    name:'hospManagement'
-                })
-            }
-```
-
-* scss写在vue文件里面,创建style文件,放入公共的全局样式,以及mixin封装的样式,以及variables变量单独存储统一颜色,以及elementui自定义的样式
 
 * 日期格式化轻量级库[day.js](https://github.com/iamkun/dayjs)
 ```
@@ -85,25 +72,6 @@ function setBackgroundColor(ele, color) {
 var ele = document.querySelector('.test');
 setBackgroundColor(ele, 'red');
 setBackgroundColor(ele, '#ccc');
-```
-* ~~currentTableData放在computed里面,值是currentPage和tableData计算后的结果~~
-
-    封装了分页器组件,每次分页向父组件触发currentChange事件
-
-* vuex的store文件创建一个mutations-types
-```
- ballInCart({commit}, boolean) {
-    commit(types.BALL_IN_CART, boolean);
-  }
-```
-
-* 如果一个模块下就一个文件，尽量写成 index.vue 。这里文件夹和文件同名，路由是不是很长？你在其他文件中 import 的时候是不是也不方便？ 而且我发现 problemManagement 和 problemRetrieve 都属于问题管理模块，完全可以合并到一个文件夹里啊。还有，文件夹已经表明是问题管理模块了，所以文件名就不要再以 problem*** 开头了。
-```
-problemManagement
-│   ├── index.vue
-│   ├── retrieve.vue
-qualityCheckAppeal
-    └── index.vue
 ```
 
 * [编辑和创建的界面差不多可以使用同一组件,在路由的meta信息中标注是那个功能](https://juejin.im/post/593121aa0ce4630057f70d35)
