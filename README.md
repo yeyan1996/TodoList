@@ -131,6 +131,8 @@ created() {
 
 # TodoList
 
+* [ ] 了解async/await内部实现原理
+
 * [ ] 看Vue源码(ing!)
 
 * [x] 学习数据结构与算法
