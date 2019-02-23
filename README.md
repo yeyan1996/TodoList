@@ -1,5 +1,7 @@
  # Best Practice
  
+ * `markdown高亮`
+ 
  * select框的option选项用xxxxOptions
  
  * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
