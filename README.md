@@ -1,5 +1,7 @@
  # Best Practice
  
+ * 没有权限页面跳转后使用replace替换页面,不是push
+ 
  * `markdown高亮`
  
  * select框的option选项用xxxxOptions
