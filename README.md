@@ -1,5 +1,7 @@
  # Best Practice
  
+ * DOM事件处理程序的函数名用handle<event>,其余不需要用handle
+ 
  * 没有权限页面跳转后使用replace替换页面,不是push
  
  * `markdown高亮`
