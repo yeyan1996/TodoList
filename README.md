@@ -105,7 +105,7 @@ created() {
 
 * [ ] 自己实现一个简易的vue（包括vue-router,vuex）
 
-* [ ] [冴羽博客](https://github.com/mqyqingfeng/Blog)
+* [x] [冴羽博客](https://github.com/mqyqingfeng/Blog)
 
 * [ ] 了解async/await内部实现原理
 
