@@ -1,6 +1,6 @@
  # Best Practice
  
- * 路由name按照层级命名
+ * 路由name按照层级命名  [Vue路由自动注入实践](https://juejin.im/post/5cb4ad82e51d456e7e297bbf)
  ```
  {
     component: () => import('@/views/Withdraw/Result/Description/Index.vue'),
@@ -8,8 +8,8 @@
     path: '/withdraw/result/description'
 }
  ```
- [Vue路由自动注入实践](https://juejin.im/post/5cb4ad82e51d456e7e297bbf)
- 
+
+
  * 避免使用魔术数字，声明常量保存魔术数字
  
  * DOM事件处理程序的函数名用handle<event>,其余不需要用handle
