@@ -115,6 +115,8 @@ created() {
 
 # TodoList
 
+* [ ] 写个给图片资源添加preload的webpack plugin
+
 * [ ] 自己实现一个简易的vue（包括vue-router,vuex）
 
 * [x] [冴羽博客](https://github.com/mqyqingfeng/Blog)
