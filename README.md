@@ -115,13 +115,13 @@ created() {
 
 # TodoList
 
+* [ ] 写个element的表单验证组件
+
 * [ ] 写个给图片资源添加preload的webpack plugin
 
 * [ ] 自己实现一个简易的vue（包括vue-router,vuex）
 
 * [x] [冴羽博客](https://github.com/mqyqingfeng/Blog)
-
-* [ ] 了解async/await内部实现原理
 
 * [ ] 看Vue源码(ing!)
 
