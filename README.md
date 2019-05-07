@@ -123,7 +123,7 @@ created() {
 
 * [x] [冴羽博客](https://github.com/mqyqingfeng/Blog)
 
-* [ ] 看Vue源码(ing!)
+* [x] 看Vue源码
 
 * [x] 学习数据结构与算法
 
