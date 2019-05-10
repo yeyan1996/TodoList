@@ -115,6 +115,8 @@ created() {
 
 # TodoList
 
+* [ ] 写篇解析vue-router源码的博客
+
 * [x] 写个element的表单验证组件
 
 * [x] 写个给图片资源添加preload的webpack plugin
