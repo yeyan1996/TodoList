@@ -115,6 +115,8 @@ created() {
 
 # TodoList
 
+* [ ] 买本书学习Linux（鸟叔的私房菜）
+
 * [ ] 写篇解析vue-router源码的博客
 
 * [x] 写个element的表单验证组件
