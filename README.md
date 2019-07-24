@@ -1,5 +1,23 @@
  # Best Practice
  
+ * 通过让路由的父级渲染一个单独的 router-view 组件，来实现多级路由的嵌套关系
+ ```javascript
+ {
+    path: '/survey',
+    name: 'questionnaire',
+    component: {
+        render: h => (
+            <keep-alive>
+                <router-view />
+            </keep-alive>
+        )
+    },
+    children:[
+     //...
+    ]
+}
+ ```
+ 
  * 路由name按照层级命名  [Vue路由自动注入实践](https://juejin.im/post/5cb4ad82e51d456e7e297bbf)
  ```
  {
