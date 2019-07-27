@@ -19,7 +19,7 @@
  ```
  
  * 路由name按照层级命名  [Vue路由自动注入实践](https://juejin.im/post/5cb4ad82e51d456e7e297bbf)
- ```
+ ```javascript
  {
     component: () => import('@/views/Withdraw/Result/Description/Index.vue'),
     name: 'withdraw-result-description',
@@ -41,19 +41,19 @@
  * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
  
  * 在声明props命名时使用驼峰，template模版中使用短横线
- ```
+ ```vue
  <my-component my-prop>
  ```
  
  * Vue自定义事件，使用短横线命名
- ```
+ ```javascript
  this.$emit('my-event')
  ```
 
  * [浏览器下载文件插件FileSaver](https://github.com/eligrey/FileSaver.js)
  
  * 封装条件语句
- ```
+ ```javascript
  const isComplexDataType = obj => (typeof obj === 'object' || typeof obj === 'function') && (obj !== null)
  
  if(isComplexDataType(something)){
@@ -64,7 +64,7 @@
 * [Vue风格指南](https://cn.vuejs.org/v2/style-guide/)
  
 * 使用逻辑运算符（&& ||）替换三元运算符（适合不需要第二个条件的情况）
-```
+```javascript
 hasMoney ? console.log('有钱') : null
 
 hasMoney && console.log('有钱')
@@ -82,7 +82,7 @@ npm install dayjs --S
 ```
 
 * 减少嵌套，尽早return
-```
+```javascript
 function test(fruit, quantity) {
   const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
   if (!fruit) throw new Error('No fruit!'); // condition 1: throw error early
@@ -96,7 +96,7 @@ function test(fruit, quantity) {
 ```
 
 * 封装函数时，尽量使用函数表达式取代语句，表达式有返回值，语句没有返回值（尽量使用纯函数，防止影响其他代码）
-```
+```javascript
 function setBackgroundColor(ele, color) {
     ele.style.backgroundColor = color;
     return color;
@@ -113,7 +113,7 @@ setBackgroundColor(ele, '#ccc');
 ![](https://lc-gold-cdn.xitu.io/25969342df96a2000ec6?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 
-```
+```javascript
 computed: {
   isEdit() {
     return this.$route.meta.isEdit // 根据meta判断
