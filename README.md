@@ -133,6 +133,8 @@ created() {
 
 # TodoList
 
+* [ ] 学习 macOS 命令行
+
 * [ ] 将红宝书的纸质笔记记录到博客上
 
 * [ ] 买本书学习Linux（鸟叔的私房菜）
@@ -151,11 +153,11 @@ created() {
 
 * [x] 学习数据结构与算法
 
-* [ ] 刷leetCode(待定)
+* [ ] 刷leetCode
 
 * [x] 看完这个[前端进阶](https://www.jianshu.com/p/996671d4dcc4)
 
-* [x] ~~使用vue+typescript重构公司项目~~重构公司项目,提取多个公共组件
+* [x] ~~使用vue+typescript重构公司项目~~重构公司项目
 
 
 
