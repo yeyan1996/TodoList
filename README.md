@@ -45,6 +45,14 @@
 
  * 避免使用魔术数字，声明常量保存魔术数字
  
+ ```javascript
+ const SELECTED = 1
+ 
+ if(x === SELECTED){
+ //...
+ }
+ ```
+ 
  * DOM/自定义事件处理程序的函数名用 handle 作为开头
  
  ```javascript
@@ -54,7 +62,7 @@
   <hello-world @close="handleClose"></hello-world>
  ```
  
- * 没有权限页面跳转后使用 replace 替换页面,不是push
+ * 没有权限页面跳转后使用 replace 替换页面,而不是push
  
  * `markdown高亮`
  
@@ -116,7 +124,7 @@ hasMoney && console.log('有钱')
 
 * 日期格式化轻量级库[day.js](https://github.com/iamkun/dayjs)
 ```
-npm install dayjs --S
+npm install dayjs -S
 ```
 
 * 减少嵌套，尽早return
