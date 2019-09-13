@@ -45,7 +45,7 @@
 
  * 避免使用魔术数字，声明常量保存魔术数字
  
- * DOM/自定义事件处理程序的函数名用handle作为开头
+ * DOM/自定义事件处理程序的函数名用 handle 作为开头
  
  ```javascript
  // html
@@ -54,11 +54,11 @@
   <hello-world @close="handleClose"></hello-world>
  ```
  
- * 没有权限页面跳转后使用replace替换页面,不是push
+ * 没有权限页面跳转后使用 replace 替换页面,不是push
  
  * `markdown高亮`
  
- * select框保存 option 选项的数组用 Options 作为开头
+ * select框保存 option 选项的数组用 options 作为开头
  
  ```vue
    <el-option
@@ -71,7 +71,7 @@
  
  * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
  
- * 在声明props命名时使用驼峰或者帕斯卡命名，template模版中使用短横线
+ * 在声明 prop 时使用驼峰或者帕斯卡命名，template模版中使用短横线
  ```vue
  // camel-case
  <my-component my-prop>
