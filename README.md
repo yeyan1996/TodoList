@@ -5,7 +5,7 @@
  ```javascript
  const recursiveCount = (nodes: Node[]) => {
       // 首行判断
-      if (!nodes.length) return
+      if (!nodes || !nodes.length) return
       
       // ...
       nodes.forEach(childNode => recursiveCount(childNode.children))
