@@ -183,7 +183,7 @@ created() {
 
 * [x] 写个给图片资源添加preload的webpack plugin
 
-* [ ] 自己实现一个简易的vue（包括vue-router,vuex）
+* [ ] ~~自己实现一个简易的vue（包括vue-router,vuex）~~没多大意义，理解原理即可
 
 * [x] [冴羽博客](https://github.com/mqyqingfeng/Blog)
 
