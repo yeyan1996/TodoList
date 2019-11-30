@@ -1,19 +1,5 @@
  # Best Practice
  
- * 使用递归时，在递归函数首行判断终止条件
- 
- ```javascript
- const recursiveCount = (nodes: Node[]) => {
-      // 首行判断
-      if (!nodes || !nodes.length) return
-      
-      // ...
-      nodes.forEach(childNode => recursiveCount(childNode.children))
-    }
-
- recursiveCount(node.children)
- ```
- 
  * 通过让路由的父级渲染一个单独的 router-view 组件，来实现多级路由的嵌套关系
  
  ```javascript
@@ -80,8 +66,6 @@
     </el-option
  ```
  
- * [Vuex持久化插件](https://www.npmjs.com/package/vuex-persistedstate)
- 
  * 在声明 prop 时使用驼峰或者帕斯卡命名，template模版中使用短横线
  ```vue
  // camel-case
@@ -126,9 +110,6 @@ hasMoney && console.log('有钱')
 * 验证使用 handleValidate,搜索使用 handleSearch,提交用 handleSubmit
 
 * 日期格式化轻量级库[day.js](https://github.com/iamkun/dayjs)
-```
-npm install dayjs -S
-```
 
 * 减少嵌套，尽早return
 
@@ -187,6 +168,8 @@ created() {
 
 
 # TodoList
+
+* [ ] 写个前端文件上传的解决方案（博客）
 
 * [ ] 学习 macOS 命令行
 
